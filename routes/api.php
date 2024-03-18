@@ -28,4 +28,5 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::apiResource('mercados', mercadoController::class);
     Route::apiResource('provincias', provinciaController::class);
     Route::apiResource('sistemas', sistemaController::class);
+    Route::apiResource('vendedores', vendedorController::class);
 });
