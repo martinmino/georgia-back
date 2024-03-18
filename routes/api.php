@@ -23,4 +23,5 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::apiResource('calles', calleController::class);
     Route::apiResource('capacidades', capacidadController::class);
     Route::apiResource('condiciones', condicionController::class);
+    Route::apiResource('diametros', diametroController::class);
 });
