@@ -26,4 +26,5 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::apiResource('diametros', diametroController::class);
     Route::apiResource('largos', largoController::class);
     Route::apiResource('mercados', mercadoController::class);
+    Route::apiResource('provincias', provinciaController::class);
 });
