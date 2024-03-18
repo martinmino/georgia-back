@@ -20,14 +20,14 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::apiResource('agentes', AgenteController::class);
     Route::apiResource('bajaMotivos', BajaMotivoController::class);
-    Route::apiResource('calles', calleController::class);
-    Route::apiResource('capacidades', capacidadController::class);
-    Route::apiResource('condiciones', condicionController::class);
-    Route::apiResource('diametros', diametroController::class);
-    Route::apiResource('largos', largoController::class);
-    Route::apiResource('mercados', mercadoController::class);
-    Route::apiResource('provincias', provinciaController::class);
-    Route::apiResource('sistemas', sistemaController::class);
-    Route::apiResource('vendedores', vendedorController::class);
-    Route::apiResource('clientes', clienteController::class);
+    Route::apiResource('calles', CalleController::class);
+    Route::apiResource('capacidades', CapacidadController::class);
+    Route::apiResource('condiciones', CondicionController::class);
+    Route::apiResource('diametros', DiametroController::class);
+    Route::apiResource('largos', LargoController::class);
+    Route::apiResource('mercados', MercadoController::class);
+    Route::apiResource('provincias', ProvinciaController::class);
+    Route::apiResource('sistemas', SistemaController::class);
+    Route::apiResource('vendedores', VendedorController::class);
+    Route::apiResource('clientes', ClienteController::class);
 });
