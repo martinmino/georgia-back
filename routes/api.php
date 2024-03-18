@@ -20,4 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::apiResource('agentes', AgenteController::class);
     Route::apiResource('bajaMotivos', BajaMotivoController::class);
+    Route::apiResource('calles', calleController::class);
 });
