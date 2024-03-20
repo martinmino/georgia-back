@@ -31,4 +31,5 @@ Route::group(['namespace' => 'App\Http\Controllers'], function() {
     Route::apiResource('vendedores', VendedorController::class);
     Route::apiResource('clientes', ClienteController::class);
     Route::apiResource('sucursales', SucursalController::class);
+    Route::apiResource('parques', ParqueController::class);
 });
