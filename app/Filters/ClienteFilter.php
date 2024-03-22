@@ -8,8 +8,8 @@ class ClienteFilter extends ApiFilter {
 
     protected $safeParams  = [
         'nombre' => ['eq'],
-        'vendedor_Id' => ['eq'],
+        'vendedor_id' => ['eq'],
         'codigo' => ['eq'],
-        'pagador_Id' => ['eq'],
+        'pagador_id' => ['eq'],
     ];
 }
